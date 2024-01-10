@@ -60,7 +60,7 @@ button{
 #con{
     display: grid;
     grid-template-columns: repeat(3,auto);
-    gap: 20px;
+    gap: 40px;
     background: gray;
     padding: 20px;
     width: 100%;
