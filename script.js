@@ -21,7 +21,7 @@ fetch("https://fakestoreapi.com/products")
             const price = document.createElement('h3');
             price.innerHTML = `Price: $${val.price}`;
             const rate = document.createElement('h4')
-            rate.innerHTML = `Rating: ${val.rating}`;
+            rate.innerHTML = `Rating: ${val.rating.rate} <-> ${val.rating.count}`;
             const btn = document.createElement('button')
             btn.innerHTML = "Add to Cart";
             const subDiv = document.createElement('div');
